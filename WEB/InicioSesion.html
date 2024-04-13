@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Iniciar Sesion</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom,  #eaccad,#eaccad); /* Fondo degradado */
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            border-radius: 5px;
+            background-color: rgb(250, 192, 121); /* Color de fondo del contenedor */
+            padding: 20px;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type="submit"]:hover {
+            background-color: #6ca565;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Iniciar Sesión</h2>
+    <form method="post">
+        <label for="username">Usuario:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" id="password" name="password" required>
+
+        <!-- Utilizamos el atributo formaction para especificar la página a la que se redirigirá -->
+        <input type="submit" value="Iniciar Sesión" formaction="Principal.html">
+    </form>
+</div>
+
+</body>
+</html>

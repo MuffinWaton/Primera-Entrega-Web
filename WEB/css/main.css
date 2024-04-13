@@ -1,0 +1,59 @@
+
+body {
+    background-image: linear-gradient(45deg, #f3dbc3,#eaccad);
+}
+
+.barra{
+    width: 850px;
+    margin-left: 500px;
+}
+.carrusel{  
+    width: 500px;
+    margin:100 auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.caja{
+    border: 1px solid black;
+    width: 500px;
+    height: 480px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+
+.caja2{
+    border: 1px solid black;
+    width: 500px;
+    height: 620px;
+    margin-left: 50px;
+    margin-top: 50px;
+    background-color: bisque;
+}
+.cajalogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 200px;
+}
+    
+.cajaimg{
+    border: 1px solid transparent;
+    width: 400px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 90px;
+}
+.contenedor{
+    display: flex;
+
+}
+.contenedor.icono{
+    margin-bottom: 30px;
+
+}
+.bg-custom{
+    background-color:rgb(250, 192, 121) ;
+}
+.card.carta{
+    margin-right: 45px;
+}
